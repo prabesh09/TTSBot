@@ -7,8 +7,7 @@ import api
 # Initialize the Telegram bot with your bot token
 bot = telebot.TeleBot(api.YOUR_API_KEY)
 
-# Define the file paths and voice
-#FILE_PATH = "file.txt"
+# Voice selection and output file
 VOICE = "en-US-JennyNeural"
 OUTPUT_FILE = "output.mp3"
 
